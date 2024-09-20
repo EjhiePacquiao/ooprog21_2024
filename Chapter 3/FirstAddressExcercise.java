@@ -12,18 +12,18 @@ public class FirstAddressExcercise
    class Address
    {
      
-      private String Brand = "LG Company";
+      private String hqName = "LG Electronics, Inc.";
       private String Street = "128, Yeoui-Daero";
       private String City = "Yeongdeungpo-Gu, Seoul";
-      private String hqName = "Company: LG Electronics, Inc.";
+      private String Corp = "Company: LG";
       
       
       public void getAddress()
       {
-         System.out.println(Brand);
+         System.out.println(hqName);
          System.out.println(Street);
          System.out.println(City);
-         System.out.println(hqName);
+         System.out.println(Corp);
       }
    }
 
