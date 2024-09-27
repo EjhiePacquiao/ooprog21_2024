@@ -1,8 +1,8 @@
 public class Circle {
     // Static variables for radius, diameter, and area
-    private static double radius;
-    private static double diameter;
-    private static double area;
+    public static double radius;
+    public static double diameter;
+    public static double area;
 
     // Constructor to initialize radius, diameter, and area
     public Circle() {
