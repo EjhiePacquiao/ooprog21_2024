@@ -11,23 +11,23 @@ public class Billing
         //frst method (price only)
         System.out.print("Enter the price for single item: ");
         double price = scanner.nextDouble();
-        double result1 = bill.computeBill(price);  // Store result 
+        double result1 = bill.computeBill(price);  // Store result 1
         
-        // second method (price and quantity)
+        // scond method (price and quantity)
         System.out.print("Enter the price for multiple items: ");
         price = scanner.nextDouble();
         System.out.print("Enter the quantity: ");
-        double quantity = scanner.nextDouble();  // Use nextDouble() for quantity
-        double result2 = bill.computeBill(price, quantity);  // Store result 
+        double quantity = scanner.nextDouble();  
+        double result2 = bill.computeBill(price, quantity);  // Store result 2
        
-        // third method (price, quantity, and coupon discount)
+        // thrd method (price, quantity, and coupon discount)
         System.out.print("Enter the price with coupon discount: ");
         price = scanner.nextDouble();
         System.out.print("Enter the quantity: ");
-        quantity = scanner.nextDouble();  // Use nextDouble() for quantity
+        quantity = scanner.nextDouble();  
         System.out.print("Enter the coupon discount (as a percentage): ");
         int coupon = scanner.nextInt();
-        double result3 = bill.computeBill(price, quantity, coupon);  // Store result 
+        double result3 = bill.computeBill(price, quantity, coupon);  // Store result 3
         
         // Display results
         // price only
